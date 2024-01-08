@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="passwordBox">
+        <div class="pgBox">
+            <span>Password Generator</span>
+        </div>
+        
+        <div class="passwordTypeSelection">
+
+            <div class="lowerCaseBox">
+                <input type="checkbox" id="allowLowerCase">
+                <label for="allowLowerCase">Allow Lower Case</label>
+            </div>
+
+            <div class="upperCaseBox">
+                <input type="checkbox" id="allowUpperCase">
+                <label for="allowUpperCase">Allow Upper Case</label>
+            </div>
+
+            <div class="numberBox">
+                <input type="checkbox" id="allowNumber">
+                <label for="allowNumber">Allow Numbers</label>
+            </div>
+
+            <div class="specialBox">
+                <input type="checkbox" id="allowSpecial">
+                <label for="allowSpecial">Allow Special Characters</label>
+            </div>
+
+
+        </div>
+
+        <div class="passwordOutPut">
+            <input id="passResult" type="text"> <button onclick="generatePassword()">Generate</button>
+        </div>
+
+    </div>
+
+    <script src="password.js"></script>
+</body>
+</html>

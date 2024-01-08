@@ -1,0 +1,83 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.passwordBox{
+    width: clamp(250px, 80%, 500px);
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border: 1px solid black;
+    box-shadow: -5px 5px black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.pgBox{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.passwordTypeSelection {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 12px;
+}
+
+.passwordTypeSelection div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+.passwordTypeSelection div input {
+    width: 15px;
+    height: 15px;
+}
+
+
+.passwordLenth{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.passwordOutPut {
+    display: flex;
+    column-gap: 20px;
+}
+
+
+.passwordOutPut input {
+    padding: 5px 10px;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: -5px 5px black;
+    outline: none;
+}
+
+.passwordOutPut button{
+    padding: 6px 20px;
+    font-size: 18px;
+    box-shadow: -5px 5px black;
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid black;
+    color: white;
+    background: #27ae60;
+    cursor: pointer;
+}
